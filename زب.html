@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>dexter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Creepster&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Courier Prime', monospace;
+      overflow-x: hidden;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .avatar {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid #4a0000;
+      box-shadow: 0 0 30px rgba(139,0,0,0.7);
+      margin: 30px auto;
+      object-fit: cover;
+    }
+    h1 {
+      font-family: 'Creepster', cursive;
+      font-size: 6rem;
+      color: #ff0033;
+      text-shadow: 0 0 20px #ff0033, 0 0 40px #000;
+      margin: 10px 0;
+      letter-spacing: 10px;
+    }
+    .intro {
+      font-size: 1.6rem;
+      color: #bbb;
+      margin: 30px 0;
+      line-height: 1.6;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .bio {
+      font-size: 1.4rem;
+      color: #ff6666;
+      margin: 40px 0;
+      font-weight: bold;
+    }
+    .playlist {
+      margin-top: 60px;
+    }
+    .playlist h2 {
+      font-size: 2.8rem;
+      color: #00ccff;
+      text-shadow: 0 0 15px #00ccff;
+      margin-bottom: 30px;
+    }
+    ul.songs {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    ul.songs li {
+      background: rgba(20,20,20,0.8);
+      margin: 12px 0;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 5px solid #ff0033;
+      font-size: 1.3rem;
+      transition: all 0.3s;
+    }
+    ul.songs li:hover {
+      transform: translateX(10px);
+      box-shadow: 0 0 20px rgba(255,0,51,0.4);
+    }
+    footer {
+      margin-top: 80px;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img 
+      src="https://images4.alphacoders.com/493/thumb-1920-49394.jpg" 
+      alt="dexter morgan" 
+      class="avatar"
+    >
+
+    <h1>dexter</h1>
+
+    <div class="intro">
+      Tonight's the night.  
+      The dark passenger is smiling...  
+      and the blood is already warm.
+    </div>
+
+    <div class="bio">
+      Deserve Dexter and my brain wired wrong.  
+      Code by day, killer code by night.  
+      The slide collection never lies.
+    </div>
+
+    <div class="playlist">
+      <h2>Playlist → Nirvana Essentials</h2>
+      <ul class="songs">
+        <li>1. Smells Like Teen Spirit</li>
+        <li>2. Come As You Are</li>
+        <li>3. Lithium</li>
+        <li>4. Heart-Shaped Box</li>
+        <li>5. All Apologies</li>
+        <li>6. About a Girl</li>
+        <li>7. Drain You</li>
+        <li>8. Polly</li>
+        <li>9. In Bloom</li>
+        <li>10. Rape Me</li>
+        <li>11. Where Did You Sleep Last Night (MTV Unplugged)</li>
+        <li>12. Something in the Way</li>
+      </ul>
+    </div>
+
+    <footer>
+      Crafted in plastic wrap & grunge • 2026
+    </footer>
+  </div>
+
+</body>
+</html>
